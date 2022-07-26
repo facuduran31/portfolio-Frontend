@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/f8e52f22b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mi portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="fa fa-code d-inline-flex ms-2 me-2" aria-hidden="true"></i>
+      <h6 class="d-flex ms-2 mt-2 align-items-center text-uppercase">Facundo Duran</h6> 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ml-2">
+        <li class="nav-item">
+          <a class="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#Experiencia">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Educación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Proyectos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container bg-danger shadow-lg">
+    <div class="banner d-flex justify-content-center align-items-center">
+        <h1>Banner</h1>
+    </div>
+
+  </div>
+  <div class="container bg-light shadow shadow-lg">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 position-relative d-flex flex-column">
+        <div class="fotocvcontainer position-absolute top-0 start-50 translate-middle">
+          <img src="./assets/img/fotocv.png" class="w-100 border-dark border-1 shadow-lg fotocv" alt="">
+        </div>
+        <div class="nomdesc">
+          <p class="border-bottom border-danger mt-5 fs-4 pb-2 border-4 rounded text-uppercase text-dark text-center">Facundo Nicolas Duran</p>
+          <p class="text-center text-uppercase">Estudiante de Ingeniería en Sistemas de Información</p>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12 mt-5 d-block ps-2 border-start border-4">
+        <p class="ms-2 fs-4 text-uppercase text-dark">RESUMEN</p>
+        <p class="ms-2">Actualmente estudiante de la carrera de Ingeniería en Sistemas de Información con conocimientos elementales en desarrollo de software, experiencia en creación y edición de sitios web. Aprendizaje constante, disciplina y constancia.</p>
+      </div>
+      <hr class="mt-5" id="Experiencia">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 d-flex">
+          <p class="ms-2 fs-4 text-uppercase text-dark bg-danger"><i class="fa fa-light fa-briefcase bg-primary" aria-hidden="true"></i>EXPERIENCIA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
