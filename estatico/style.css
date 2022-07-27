@@ -1,5 +1,12 @@
-.banner{
+.bannercontainer{
     height: 20vw;
+    background-image: url('./assets/img/fondo.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    object-fit: cover;
 }
 
 .fotocvcontainer{
@@ -16,4 +23,16 @@
 
 .nomdesc{
     padding-top: 3vw;
+}
+
+.logoempresacontainer{
+    width: 20vw;
+}
+
+.logoempresa{
+    object-fit: cover;
+}
+
+.nav-item:hover{
+    background: rgba(228, 228, 228, 0.63);
 }

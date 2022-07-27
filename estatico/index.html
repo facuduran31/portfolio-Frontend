@@ -13,16 +13,18 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <i class="fa fa-code d-inline-flex ms-2 me-2" aria-hidden="true"></i>
+    <a class="navbar-brand d-flex align-items-center ms-2" href="#">
+      <div class="d-inline-flex ms-2 me-2">
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </div>
       <h6 class="d-flex ms-2 mt-2 align-items-center text-uppercase">Facundo Duran</h6> 
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto ml-2">
+    <div class="collapse navbar-collapse justify-content-end me-2" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-3">
         <li class="nav-item">
           <a class="nav-link active text-dark" aria-current="page" href="#">Inicio</a>
         </li>
@@ -39,11 +41,10 @@
     </div>
   </nav>
 
-  <div class="container bg-danger shadow-lg">
-    <div class="banner d-flex justify-content-center align-items-center">
-        <h1>Banner</h1>
+  <div class="container shadow-lg" style="padding: 0;">
+    <div class="bannercontainer justify-content-center align-items-center">
+        
     </div>
-
   </div>
   <div class="container bg-light shadow shadow-lg">
     <div class="row">
@@ -56,17 +57,60 @@
           <p class="text-center text-uppercase">Estudiante de Ingeniería en Sistemas de Información</p>
         </div>
       </div>
-      <div class="col-md-8 col-sm-12 mt-5 d-block ps-2 border-start border-4">
+      <div class="col-md-8 col-sm-12 mt-5 d-block ps-2 border-start border-4 border-danger">
         <p class="ms-2 fs-4 text-uppercase text-dark">RESUMEN</p>
         <p class="ms-2">Actualmente estudiante de la carrera de Ingeniería en Sistemas de Información con conocimientos elementales en desarrollo de software, experiencia en creación y edición de sitios web. Aprendizaje constante, disciplina y constancia.</p>
       </div>
       <hr class="mt-5" id="Experiencia">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 d-flex">
-          <p class="ms-2 fs-4 text-uppercase text-dark bg-danger"><i class="fa fa-light fa-briefcase bg-primary" aria-hidden="true"></i>EXPERIENCIA</p>
+      <div class="ms-5">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex">
+              <div class="ms-3 p-2 bg-primary text-light">
+                  <i class="fa fa-solid fa-briefcase" style="padding-top:3px"></i>
+              </div>  
+              <div class="bg-danger p-2">EXPERIENCIA LABORAL</div>
+          </div>
+        <div class="row mt-3">
+          <div class="col-md-4 col-sm-12">
+            <div class="logoempresacontainer ms-2">
+              <img src="./assets/img/logo-utn.png" class="logoempresa w-100" alt="">
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="ms-2">
+              <b>Encargado de laboratorios</b>
+              <p>Universidad Tecnológica Nacional | Ene 2022 - Act.</p>
+              <ul>
+                <li>Instalación y mantenimiento de máquinas virtuales.</li>
+                <li>Armado, desarmado y limpieza de PCs.</li>
+                <li>Soporte técnico al cuerpo docente.</li>
+                <li>Tareas administrativas varias.</li>
+                <li>Trabajo en equipo con profesionales experimentados.</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="row mt-3">
+          <div class="col-md-4 col-sm-12">
+            <div class="logoempresacontainer text-center ms-2">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="ms-2">
+              <b>Desarrollo de sitios web</b>
+              <p>Freelance | 2018 - 2020</p>
+              <ul>
+                <li>Configuración de Hosting y Dominio web.</li>
+                <li>Instalación y configuración de foros SMF y vBulletin.</li>
+                <li>Edición y diseño de webs estáticas con HTML y CSS.</li>
+              </ul>
+            </div>
+          </div>
       </div>
     </div>
   </div>
+
+  
 </body>
 </html>
