@@ -17,8 +17,8 @@
 
 .fotocv{
     object-fit:cover;
-    border: 3px solid black;
     border-radius: 50%;
+    border: 1px solid rgba(37, 37, 37, 0.63);
 }
 
 .nomdesc{
